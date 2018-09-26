@@ -45,6 +45,5 @@ public class Main {
     }
     public static void bark() {
         System.out.println("bark");
-        //
     }
 }
