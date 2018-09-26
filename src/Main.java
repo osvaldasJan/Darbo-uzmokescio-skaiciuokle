@@ -25,7 +25,7 @@ public class Main {
         int bazinisAtlyginimas = keyboard.nextInt();
         System.out.println("Įveskite pagamintų detalių skaičių: ");
         int pagamintosDetales = keyboard.nextInt();
-        atlyginimoSkaiciavimas (bazinisAtlyginimas, koeficientoSkaiciavimas(pagamintosDetales));
+
         System.out.println("Galutinis atlyginimas, kai pagamintos " +
                 pagamintosDetales + " detalės: " +
                 atlyginimoSkaiciavimas (bazinisAtlyginimas,
