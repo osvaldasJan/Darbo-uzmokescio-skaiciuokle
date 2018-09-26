@@ -30,6 +30,7 @@ public class Main {
                 pagamintosDetales + " detalės: " +
                 atlyginimoSkaiciavimas (bazinisAtlyginimas,
                 koeficientoSkaiciavimas(pagamintosDetales)));
+        bark();
     }
     public static double koeficientoSkaiciavimas (int detaliuKiekis){
         if (detaliuKiekis < 2000) {
@@ -41,5 +42,9 @@ public class Main {
     }
     public static double atlyginimoSkaiciavimas (int bazinisAtlyginimas, double koeficientas){
         return koeficientas*bazinisAtlyginimas;
+    }
+    public static void bark() {
+        System.out.println("bark");
+        //
     }
 }
