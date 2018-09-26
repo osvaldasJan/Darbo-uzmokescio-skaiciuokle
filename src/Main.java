@@ -71,6 +71,7 @@ public class Main {
                 apskaiciuotiAtlyginima(bazinisDarboUzmokestis,
                         apskaiciuotiKoeficienta(pagamintosDetales)));
     }
+    //
 
     public static void bark() {
         System.out.println("bark");
