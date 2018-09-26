@@ -25,12 +25,11 @@ public class Main {
         int bazinisAtlyginimas = keyboard.nextInt();
         System.out.println("Įveskite pagamintų detalių skaičių: ");
         int pagamintosDetales = keyboard.nextInt();
-
+        atlyginimoSkaiciavimas (bazinisAtlyginimas, koeficientoSkaiciavimas(pagamintosDetales));
         System.out.println("Galutinis atlyginimas, kai pagamintos " +
                 pagamintosDetales + " detalės: " +
                 atlyginimoSkaiciavimas (bazinisAtlyginimas,
                 koeficientoSkaiciavimas(pagamintosDetales)));
-        bark();
     }
     public static double koeficientoSkaiciavimas (int detaliuKiekis){
         if (detaliuKiekis < 2000) {
@@ -46,5 +45,4 @@ public class Main {
     public static void bark() {
         System.out.println("bark");
     }
-    //???
 }
